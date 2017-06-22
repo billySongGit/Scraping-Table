@@ -28,7 +28,7 @@ for (var f = 0; f < a.length; f++) {
   var c = a[f];
   for (var h = 0; h < c.length; h++) {
     if (c[h] != null) {
-      c[h] = c[h].replace("'", "\'").replace(",", "");
+      c[h] = c[h].replace("'", "\\'").replace(",", "");
     }
 
   }
